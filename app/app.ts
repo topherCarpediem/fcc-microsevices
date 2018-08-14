@@ -1,8 +1,12 @@
 import express, { Express } from "express";
-import { TimeStampController } from "./controllers";
+import {
+    TimeStampController,
+    WhoAmIController
+} from "./controllers";
 
-const app : Express = express()
+const app: Express = express()
 
 app.use('/api/timestamp', TimeStampController)
+app.use('/api/whoami', WhoAmIController)
 
 export default app;
