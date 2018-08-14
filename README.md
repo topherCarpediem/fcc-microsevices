@@ -5,7 +5,7 @@ This project is based on the challenge in the FreeCodeCamp community.
 This microservice is just translating the given valid date into a unix timestamp and utc timestamp. To use this microservice, check out the API docs below
 
 ### How to use?
-1. Create a request into the API endpoint which is GET method, the url pattern is [project_url]/api/timestamp/**:date_string?**
+1. Create a request into the API endpoint which is GET method, the url pattern is https://thawing-hollows-15730.herokuapp.com/api/timestamp/**:date_string?**
 
 ```json
 {
