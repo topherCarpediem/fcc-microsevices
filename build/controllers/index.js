@@ -5,3 +5,4 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./timestamp.controller"));
 __export(require("./whoami.controller"));
+__export(require("./urlshortener.controller"));
